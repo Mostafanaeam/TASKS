@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: #001;
+    display: flex;
+} 
+.portflio{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.portflio .img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.img-box img{
+    width: 100%;
+}
+.menu{
+    background-color: #123;
+    width: 40px;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+.menu:hover{
+    width: 260px;
+}
+.menu ul{
+    list-style: none;
+    height: 95%;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.menu ul li a:hover, .active{
+    background-color: #ffffff55;
+}
+.logout{
+    position:absolute ;
+    bottom: 0;
+    width: 100%;
+}
+.logout a{
+    background-color: red;
+}
+.menu ul li a p{
+    font-size: 18px;
+}
+.content{
+    width: 100%;
+    margin: 10px;
+}
+.title-info{
+    display: flex;
+    background-color: #8e8efd;
+    border-radius: 10px;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data-info .box{
+    flex-basis: 150px;
+    height: 200px;
+    flex-grow: 1;
+    background-color: #123;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.data-info .box p, span{
+    font-size: 30px;
+}
+.box i{
+    font-size: 40px;
+}
+.content-2{
+    width: 100%;
+    
+}
+.content-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content-3 .title-info{
+    flex-basis: 150px;
+    height: 20px;
+    flex-grow:3;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.content-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content-4 .title-info{
+    flex-basis: 150px;
+    height: 20px;
+    flex-grow:3;
+    background-color:#123 ;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 3px 0;
+}

@@ -1,0 +1,53 @@
+:root{
+  --background-color: linear-gradient(90deg,#01022d,#000);
+}
+*{
+  margin: 0 0 0 0;
+  padding: 0;
+}
+body{
+  background-image: var(--background-color);
+  height:100vh;
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  height: 500px;
+  background-image: linear-gradient(90deg,#01022DA6 ,#00000091 ) , url(./IMG-20240721-WA0040.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  background-position: center ;
+  border-radius: 10px;
+}
+.container:hover{
+  background-image: linear-gradient(90deg,#01022D4F ,transparent ) , url(./IMG-20240721-WA0040.jpg);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center ;
+  color: antiquewhite;
+}
+.logo{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul{
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul a{
+  border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
